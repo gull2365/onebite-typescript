@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS",
+    "strict": true,
+    "allowJs": true,
+    "esModuleInterop": true, // 외부 라이브러리 불러올떄 디폴트로 불러온 값이 없을 수도 있기때문에 사용
+    "jsx": "react-jsx" // jsx 허용
+  },
+  "include": ["src"]
+}
